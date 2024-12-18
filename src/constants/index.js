@@ -14,9 +14,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    
     java,
     cpp,
     python,
@@ -29,10 +27,16 @@ import {
   Programmer,
   waiter,
   Welocalize,
+  panimation,
+  PetsShop,
+  ReactShoes,
+  ScrollTigger,
+  waitertip,
 
   } from "../assets";
   
-  
+
+
 
   // import java from "../assets/tech/java.png";
   // import cpp from "../assets/tech/cpp.png";
@@ -110,10 +114,10 @@ import {
       name: "Python",
       icon: python, //XXXXX//
     },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -330,9 +334,72 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Parallax Scroll Animation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A creative website template featuring smooth parallax scroll animations that enhance user experience. Built with HTML, CSS, and JavaScript, it offers an engaging and visually appealing scrolling effect.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: panimation,
+      source_code_link: "https://adel145.github.io/parallax-scroll-animation-2/",
+    },
+    {
+      name: "WaiterTip",
+      description:
+        "A predictive machine learning model built with Python to forecast daily tips for restaurant staff. By leveraging historical data and advanced machine learning algorithms, it accurately predicts tips based on selected shift dates.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "machinelearning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dataanalysis",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: waitertip,
+      source_code_link: "https://github.com/adel145/Tips_Predictor",
+    },
+    {
+      name: "Pets Shop Registration",
+      description:
+        "A responsive pet shop website registration page designed for seamless user onboarding. Developed using React for the frontend and Node.js with MongoDB for efficient backend data management.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: PetsShop,
+      source_code_link: "https://adel145.github.io/Pets_Shop_Registration/",
+    },
+    {
+      name: "Shoes Website",
+      description:
+        "An interactive React-based website showcasing a collection of shoes. The platform synchronizes seamlessly with a MongoDB database, ensuring real-time updates and dynamic data integration.",
       tags: [
         {
           name: "react",
@@ -343,55 +410,36 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ReactShoes,
+      source_code_link: "https://github.com/adel145/adel145-React_Shoes_Website4",
     },
     {
-      name: "Job IT",
+      name: "ScrollTrigger",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A modern and visually engaging website template that incorporates creative scrolling effects using HTML, CSS, and JavaScript. Ideal for showcasing dynamic content with smooth transitions.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ScrollTigger,
+      source_code_link: "https://adel145.github.io/scroll_trigger_image/",
     },
+    
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };

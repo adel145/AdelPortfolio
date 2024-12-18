@@ -22,9 +22,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 import java from "../assets/tech/java.png";
 import cpp from "../assets/tech/cpp.png";
@@ -42,7 +40,22 @@ import mcdonald from "../assets/company/mcdonald.png";
 import Programmer from "../assets/company/Programmer.png";
 import waiter from "../assets/company/waiter.png";
 import Welocalize from "../assets/company/Welocalize.png";
+
+import panimation from "../assets/panimation.png";
+import PetsShop from "../assets/PetsShop.png";
+import ReactShoes from "../assets/ReactShoes.jpg";
+import ScrollTigger from "../assets/ScrollTigger.png";
+import waitertip from "../assets/waitertip.png";
+
+
+
+
 export {
+  panimation,
+  PetsShop,
+  ReactShoes,
+  ScrollTigger,
+  waitertip,
   sprintcity,
   atriis, 
   mcdonald,
@@ -74,7 +87,5 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+ 
 };
